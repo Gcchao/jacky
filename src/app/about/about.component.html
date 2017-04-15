@@ -1,31 +1,34 @@
-    <div class="container">
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
 
-      <div class="page-header" id="banner">
-        <div class="row">
-          <div class="col-lg-8 col-md-7 col-sm-6">
-            <h1>Cerulean</h1>
-            <p class="lead">A calm blue sky</p>
-          </div>
-          <div class="col-lg-4 col-md-5 col-sm-6">
-            <div class="sponsor">
-              <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=bootswatchcom" id="_carbonads_js"></script>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4">
-            <div class="list-group table-of-contents">
-              <a class="list-group-item" href="#navbar">Navbar</a>
-              <a class="list-group-item" href="#buttons">Buttons</a>
-              <a class="list-group-item" href="#typography">Typography</a>
-              <a class="list-group-item" href="#tables">Tables</a>
-              <a class="list-group-item" href="#forms">Forms</a>
-              <a class="list-group-item" href="#navs">Navs</a>
-              <a class="list-group-item" href="#indicators">Indicators</a>
-              <a class="list-group-item" href="#progress-bars">Progress bars</a>
-              <a class="list-group-item" href="#containers">Containers</a>
-              <a class="list-group-item" href="#dialogs">Dialogs</a>
-            </div>
-          </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://media.istockphoto.com/photos/overhead-view-of-two-business-persons-in-the-lobby-picture-id520791880?s=2048x2048" alt="Image">
+        <div class="carousel-caption">
         </div>
       </div>
+
+      <div class="item">
+        <img src="http://media.istockphoto.com/photos/friends-connection-digital-devices-technology-network-concept-picture-id525208898?s=2048x2048" alt="Image">
+        <div class="carousel-caption">
+          <h3>Lorem</h3>
+          <p>Lorem ipsum...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
