@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  AddTable: Boolean = false;
+
+  constructor() { 
+    this.AddTable = false;
+  }
 
   ngOnInit() {
   }
 
+  fillform(){
+      this.AddTable = !this.AddTable;
+  }
 }

@@ -1,18 +1,22 @@
 .jumbotron {
-    margin-bottom: 0px;
-    background-image: url(../../assets/images/1.jpg);
-    background-position: 0% 25%;
+    margin-bottom: 5px;
+    background-image: url(../../assets/images/AdobeStock.png);
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
+    height: 370px;
+    padding-top: 5px;
+
 }
 
 .fill {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden
+    overflow: hidden;
+    padding-bottom: 5px;
 }
 .fill img {
     flex-shrink: 0;
