@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
+import { ListingComponent } from './listing/listing.component';
 
 
 
@@ -24,6 +25,8 @@ const appRoutes: Routes = [
     {path: 'information', component: InformationComponent},
     {path: 'about', component: AboutComponent} ,
     {path: 'contact', component: ContactComponent},
+    {path: 'list', component: ListingComponent},
+
 ] 
 
 @NgModule({
@@ -34,6 +37,7 @@ const appRoutes: Routes = [
     AboutComponent,
     HeaderComponent,
     ContactComponent,
+    ListingComponent,
   ],
   imports: [
     BrowserModule,
