@@ -15,10 +15,12 @@
 }
 
 .container > p {
+  font-size: 13px;
 line-height: 1.25em;
 margin: 0.625em 0;
 text-align: justify;
-text-indent: 17px;
+//text-indent: 17px;
+display: inline-table;
 }
 
 .container > h1 {
@@ -26,3 +28,6 @@ text-indent: 17px;
 }
 
 
+#describe{
+  padding-top: 7px;
+}

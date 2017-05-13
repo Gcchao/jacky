@@ -11,8 +11,7 @@
 }
 .jumbotron h1{
      position: relative;
-     top: 7%;
-
+     top: -7%;
 }
 
 .img-wrapper {
@@ -48,7 +47,8 @@
     padding-right: 30px;
 }
 .post-thumb img {
-    display: block
+    display: block;
+    height: 50%;
 }
 .post-content {
     margin-left: 210px
